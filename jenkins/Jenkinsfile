@@ -16,7 +16,7 @@ pipeline {
                 }
             }
         }
-        stage('depolyment') {
+        stage('depolyments') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
